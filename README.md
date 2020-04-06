@@ -1,10 +1,12 @@
 # ArithmeticExpression-Updated
 
 Prerequisite
+
 Java 1.8 or above
 Maven
 
 Steps to run
+
 Download the zip file and extract it.
 Open the terminal and go to the project folder path
 Run mvn clean install command to build a war file(generated in target folder)
