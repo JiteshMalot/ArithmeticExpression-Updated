@@ -17,10 +17,11 @@ class ArithmeticExpressionApplicationTests {
 		expEntity.setExpression("(1+(3-2))");
 		try {
 			int res = arithmeticService.evaluateExpression(expEntity);
+			assertEquals(2, res);
 
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
 
 	}
